@@ -1,19 +1,20 @@
 # KNOB-VIEW
+[![](https://jitpack.io/v/triandamai/knob-view.svg)](https://jitpack.io/#triandamai/knob-view)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Step 1
 ```kotlin
     allprojects {
 		repositories {
-			...
-			maven { url 'https://jitpack.io' }
+			maven(url ="https://jitpack.io")
 		}
 	}
 ```
 ## Step 2
 ```kotlin
 
-    dependencies {
-	        implementation 'com.github.triandamai:knob-view:Tag'
+    dependencies { 
+        implementation("com.github.triandamai:knob-view:<version>")
 	}
 ```
 
