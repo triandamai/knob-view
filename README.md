@@ -25,7 +25,6 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         app:knobSrc="@drawable/knob"
-        app:startingAngle="180"
         />
 ```
 
