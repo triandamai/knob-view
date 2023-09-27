@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         progress.max = 1000
         progress.min = 0
 
-        knobView.config = app.trian.knobview.KnobDefaults.indeterminate()
+        knobView.config = KnobDefaults.indeterminate()
 
         knobView.setListener(object : app.trian.knobview.KnobListener {
             override fun onValueChanged(value: Float) {
