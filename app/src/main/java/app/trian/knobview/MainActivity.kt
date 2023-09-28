@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
         knobView.config = KnobDefaults.indeterminate()
 
-        knobView.setListener(object : app.trian.knobview.KnobListener {
+        knobView.setListener(object : KnobListener {
             override fun onValueChanged(value: Float) {
                 tvAngle.text = value.toString()
                 progress.progress = value.toInt()
